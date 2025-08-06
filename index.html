@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mapping in Array</title>
+    </head>
+    <body>
+        <h1>Mapping in Array</h1>
+        <p id="value"></p>
+        <script>
+            var numbers = [8, 14, 13, 7, 17];
+            
+            function myFunction(num) {
+                return num *8;
+            }
+            var newarray = numbers.map(myFunction);
+            document.getElementById("value").innerHTML = newarray;
+        </script>
+    </body>
+</html>
